@@ -2,7 +2,7 @@
 /*CSE 490 Project One
 	-Chris Sporski
 */
-module project1(led, clk, btn, cathodes, anodes, switch);
+module project1(led, clk, btn, cathodes, anodes, switch);	/*Set all buttons, switches, and inital values for 7 segment displays*/
 
 	input clk;
 	input [3:0] switch;
@@ -100,7 +100,7 @@ module project1(led, clk, btn, cathodes, anodes, switch);
 				end
 			endfunction
  
-task create_slow_clock;
+task create_slow_clock;				/*Important function for 7 segment display since it needs to constantly recieve data*/
 	input clock;
 	inout slow_clock;
 	integer count;
