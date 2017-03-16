@@ -6,7 +6,7 @@ Actual mapping and other necessary files have been left out.
 
 Text based image of how it would work.
 
-Lights---> 1100   0000 <--7 Segment display
+Lights---> 1100   0000 <--7 Segment display /n
 Switches-> uudd   ···· <--Buttons
 
 For this example, lights are set to on, on, off, off
